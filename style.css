@@ -1,0 +1,110 @@
+html {
+  height: 100%;
+}
+
+:root {
+  --color: rgb(19,52,59);
+  --background-color: rgb(255, 255, 255);
+  --sandy: rgb(239,227,201);
+  --seaweed: rgb(191,197,183);
+  --coral: rgb(228,203,199);
+  --anemone: rgb(209,198,224);
+  --sailor: rgb(70,95,122);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.header {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 8rem 1fr 8rem;
+  grid-template-rows: 4rem;
+  align-items: center;
+  font-family: "Iowan Old Style";
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+.right-header {
+  display: flex;
+  justify-content: right;
+  gap: 2rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  letter-spacing: 1.483rem;
+  gap: 4rem;
+}
+
+img {
+  width: 2.5rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 2fr 5rem 1fr 5rem;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+}
+
+.hero img {
+  width: 40rem;
+  object-fit: contain;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.53rem;
+  margin-bottom: 1rem;
+
+}
+
+.hero-body {
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+}
+
+.hero-link {
+  font-weight: 700;
+  margin-top: 2rem;
+  letter-spacing: 0.24rem;
+}
+
+.hero-link:hover {
+  text-decoration: underline;
+}
+
+.email-banner {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  color: var(--background-color);
+  background-color: var(--color);
+  position: sticky;
+  bottom: 0;
+  letter-spacing: 0.24rem;
+  margin-top: auto;
+}
+
+span {
+  text-decoration: underline;
+}
+
